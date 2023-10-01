@@ -3,6 +3,71 @@ width: 1200px;
 padding: 0 15px;
 margin: 0 auto;
 }
-body {
-    font-family: ‘Inter’;
-   };
+:root{
+    --main-color-text: #212121;
+    --second-color-text: #757575;
+    --accent-color:#2196F3;
+    --header-logo-color:#000000;
+    --main-white-color:#FFFFFF;
+    --adres-contact-link:#FFFFFF99;
+}
+.logo{
+    font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+.header-logo{
+    color: var(--header-logo-color);
+}
+.nav-list-link{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--main-color-text);
+
+}
+.contacts-list-link{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--second-color-text);
+
+}
+.contacts-list-link:hover,.nav-list-link:hover{
+    color: var(--accent-color);
+}
+.section-hero-title{
+    font-family: Roboto;
+font-size: 44px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0.06em;
+text-align: center;
+color: var(--main-white-color);
+}
+.section-hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.section-features{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.section-work{
+    padding-bottom: 94px;
+}
+.section-team{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
