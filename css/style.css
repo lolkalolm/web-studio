@@ -237,3 +237,31 @@ padding-right: 22px;
     background-color:var(--accent-color);
     color: var(--main-white-color);
 }
+.antena::before{
+    background-image: url("../antena.png");
+    content: "";
+    width:270px;
+    height: 120px;
+    display: inline-block;
+}
+.clock::before{
+    background-image: url("../clock.png");
+    content: "";
+    width:270px;
+    height: 120px;
+    display: inline-block;
+}
+.desk::before{
+    background-image: url("../desk.png");
+    content: "";
+    width:270px;
+    height: 120px;
+    display: inline-block;
+}
+.astro::before{
+    background-image: url("../astro.png");
+    content: "";
+    width:270px;
+    height: 120px;
+    display: inline-block;
+}
