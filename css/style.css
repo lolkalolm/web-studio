@@ -41,6 +41,9 @@ font-weight: 500;
 line-height: 16px;
 letter-spacing: 0.02em;
 color: var(--second-color-text);
+display: flex;
+align-items: center;
+gap: 10px;
 
 
 }
@@ -61,7 +64,7 @@ margin: 0 auto;
     background-color: #2F303A;
     padding-top: 200px;
     padding-bottom: 200px;
-}
+    background-image: url("../images/Img\ \(12\).png")}
 .section-features{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -265,3 +268,109 @@ padding-right: 22px;
     height: 120px;
     display: inline-block;
 }
+.social-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 28px;
+}
+.social-list-link{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color:rgba(175, 177, 184, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-list-icon{
+    fill: currentColor;
+}
+.social-list-link:hover{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.footer-social-list{
+    display: flex;
+    gap: 10px;
+}
+.contacts-list-icon{
+    fill:currentColor;
+}
+.footer-content-wrap{
+    display: flex;
+    gap: 70px;
+}
+.footer-social-title{
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 1);
+margin-bottom: 20px;
+text-transform: uppercase;
+}
+
+.foter-list-link:hover{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.foter-list-link{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color:rgba(255, 255, 255, 1);
+   background-color: rgba(255, 255, 255, 0.1);
+}
+.foter-list-icon{
+    fill: currentColor;
+}
+.clients-title{
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+margin-bottom: 50px;
+}
+.clients-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.clients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.clients-list-item{
+    width: calc((100% - 150px)/ 6);
+}
+.clients-list-link{
+    height: 92px;
+    border:1px solid rgba(175, 177, 184, 1);
+    border-radius:4px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(175, 177, 184, 1);
+}
+.clients-list-icon{
+    fill: currentColor;
+}
+.clients-list-link:hover{
+    color: #2196F3;
+    border-color: rgba(33, 150, 243, 1);
+}
+ .portfolio-list-item{
+    outline:1px solid rgba(238, 238, 238, 1);
+ }
+ .portfolio-list-wrap{
+    padding-top:20px ;
+    padding-bottom:20px ;
+    padding-left: 24px;
+    padding-right: 24px;
+ }
